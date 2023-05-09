@@ -12,9 +12,9 @@ const Home = () => {
     <div className='flex items-center justify-center duration-500 lg:py-40 md:py-40 sm:py-20'>
     <div className='flex flex-col items-center justify-center'>
         <span className='mb-4'>Hey there, I’m Bruno Simmons 👋</span>
-        <span className='font-bold text-center lg:w-[800px] md:w-[700px] sm:w-[400px] lg:text-6xl md:text-4xl sm:text-3xl'>Building digital products, brands and experience</span>
+        <span className='font-bold text-center lg:w-[800px] md:w-[700px] sm:w-[350px] lg:text-6xl md:text-4xl sm:text-3xl'>Building digital products, brands and experience</span>
         <div className='m-8'><span className='bg-blue-600 p-3 cursor-pointer rounded-full text-xsm uppercase font-bold text-white'>Contact with me</span></div>
-        <div className='w-full h-[1px] mt-20 flex items-center justify-center bg-gray-100'>
+        <div className='w-full h-[1px] mt-20 flex items-center justify-center  bg-gray-100'>
             <i className='bx bx-chevron-down border-black border border-opacity-30  p-2 rounded-full bg-white'></i>
         </div>
     </div>
