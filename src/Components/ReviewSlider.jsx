@@ -36,19 +36,19 @@ const testimonials = [
       company: 'QRS Inc.'
     },
   ];
-  
-const Testimonial = () => {
-  const sliderBox = useRef()
-  const handleSlideRight = () => {
+
+const ReviewSlider = () => {
+    const sliderBox = useRef()
+    const handleSlideRight = () => {
     const width = sliderBox.current.clientWidth
     navigator.vibrate(500)
     sliderBox.current.scrollLeft = sliderBox.current.scrollLeft + width
-  }
-  const handleSlideLeft = () => {
+    }
+    const handleSlideLeft = () => {
     const width = sliderBox.current.clientWidth
     navigator.vibrate(500)
     sliderBox.current.scrollLeft = sliderBox.current.scrollLeft - width
-  }
+    }
     return (
     <>
     <div className='py-8 sm:px-4 md:px-0 lg:px-0'>
@@ -75,7 +75,8 @@ const Testimonial = () => {
     </div>
     </div>
     </>
-  )
+    )
 }
 
-export default Testimonial
+export default ReviewSlider
+
