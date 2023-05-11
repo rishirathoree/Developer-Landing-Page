@@ -41,12 +41,10 @@ const ReviewSlider = () => {
     const sliderBox = useRef()
     const handleSlideRight = () => {
     const width = sliderBox.current.clientWidth
-    navigator.vibrate(500)
     sliderBox.current.scrollLeft = sliderBox.current.scrollLeft + width
     }
     const handleSlideLeft = () => {
     const width = sliderBox.current.clientWidth
-    navigator.vibrate(500)
     sliderBox.current.scrollLeft = sliderBox.current.scrollLeft - width
     }
     return (
