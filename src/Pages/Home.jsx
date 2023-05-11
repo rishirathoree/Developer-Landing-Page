@@ -3,9 +3,9 @@ import work1 from '../assets/work-1.png'
 import work2 from '../assets/work-2.png'
 import work4 from '../assets/work-4.png'
 import work3 from '../assets/work-3.png'
-import mypic from '../assets/mypic.jpg'
 
-import 'boxicons/css/boxicons.min.css'
+import Testimonial from '../Components/testimonial'
+
 const Home = () => {
   return (
     <>
@@ -120,6 +120,7 @@ const Home = () => {
             <div className=' bg-white px-8 text-xsm rounded-full '>MORE THAN 150+ BRANDS</div>
         </div>
         </div>
+        <Testimonial />
         {/* about me  */}
         <div  id='aboutSection' className='lg:px-16 my-12 md:px-12 sm:px-4'>
             <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4'>
