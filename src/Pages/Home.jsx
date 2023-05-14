@@ -4,7 +4,7 @@ import work2 from '../assets/work-2.png'
 import work4 from '../assets/work-4.png'
 import work3 from '../assets/work-3.png'
 import ReviewSlider from '../Components/ReviewSlider'
-
+import Bannerslides from '../Components/Bannerslides'
 
 const Home = () => {
   return (
@@ -51,7 +51,7 @@ const Home = () => {
         <span className='py-1 font-light text-xsm text-slate-900'>Nibh tellus ut suspendisse porttitor. Vivamus sit tincidunt bibendum a etiam fringilla quis nisl. Amet eget et, lacus, ullamcorper lectus ullamcorper amet.</span>
     </div>
    </div>
-   <span className='font-semibold text-white bg-black p-3 rounded-full text-md uppercase tracking-none'>Visit My Dribble <i class='bx bx-basketball'></i></span>
+   <span className='font-semibold text-white bg-black p-3 rounded-full text-md uppercase tracking-none'>Visit My Dribble <i className='bx bx-basketball'></i></span>
     </div>
     <div  id='servicesSection' className='lg:px-16 md:px-12 sm:px-0 duration-500  py-12'>
         <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 relative bg-teal-50 p-8  gap-4'>
@@ -111,8 +111,8 @@ const Home = () => {
 <path d="M44.6831 35.3021V9.69849H49.4059V35.3021H44.6831ZM89.9803 17.9025H94.4897V20.0258C95.4488 18.3283 97.6871 17.4078 99.6042 17.4078C101.984 17.4078 103.901 18.4345 104.789 20.307C106.173 18.1837 108.02 17.4078 110.329 17.4078C113.56 17.4078 116.649 19.3527 116.649 24.0205V35.3021H112.069V24.976C112.069 23.1012 111.145 21.686 108.978 21.686C106.953 21.686 105.746 23.2435 105.746 25.1183V35.3033H101.06V24.976C101.06 23.1012 100.101 21.686 97.9697 21.686C95.9096 21.686 94.702 23.2085 94.702 25.1183V35.3033H89.9803V17.9025ZM60.0792 35.8062C54.7584 35.8062 50.9056 31.878 50.9056 26.6023C50.9056 21.4107 54.7467 17.3903 60.0792 17.3903C65.4375 17.3903 69.2528 21.448 69.2528 26.6023C69.2528 31.8407 65.3977 35.8062 60.0792 35.8062ZM60.0792 21.6487C58.7594 21.6505 57.4943 22.1732 56.5614 23.1021C55.6285 24.0311 55.104 25.2903 55.1031 26.6035C55.104 27.9167 55.6285 29.1759 56.5614 30.1048C57.4943 31.0337 58.7594 31.5565 60.0792 31.5583C61.3988 31.5562 62.6636 31.0333 63.5963 30.1044C64.5289 29.1755 65.0532 27.9165 65.0541 26.6035C65.0532 25.2905 64.5289 24.0314 63.5963 23.1026C62.6636 22.1737 61.3988 21.6508 60.0792 21.6487ZM79.3399 35.8062C74.0191 35.8062 70.1662 31.878 70.1662 26.6023C70.1662 21.4107 74.0073 17.3903 79.3399 17.3903C84.6982 17.3903 88.5135 21.448 88.5135 26.6023C88.5135 31.8407 84.656 35.8062 79.3399 35.8062ZM79.3399 21.5892C78.0049 21.5913 76.7254 22.1202 75.7818 23.0597C74.8382 23.9993 74.3076 25.2729 74.3063 26.6011C74.3076 27.9294 74.8382 29.203 75.7818 30.1426C76.7254 31.0821 78.0049 31.611 79.3399 31.6131C80.6748 31.611 81.9544 31.0821 82.898 30.1426C83.8416 29.203 84.3722 27.9294 84.3734 26.6011C84.3722 25.2729 83.8416 23.9993 82.898 23.0597C81.9544 22.1202 80.6748 21.5913 79.3399 21.5892Z" fill="#212121"/>
 </svg>
 <svg width="128" height="48" viewBox="0 0 128 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M99.5917 31.6175C102.891 31.6175 105.574 28.9876 105.574 25.755C105.574 22.5222 102.891 19.8923 99.5917 19.8923C96.2933 19.8923 93.6095 22.5222 93.6095 25.755C93.6095 28.9876 96.2933 31.6175 99.5917 31.6175ZM105.574 11.1852H105.736H108.408V34.4148H105.574V32.0954C103.938 33.5811 101.829 34.395 99.5917 34.395C94.7307 34.395 90.7757 30.519 90.7757 25.755C90.7757 20.9906 94.7307 17.1148 99.5917 17.1148C101.829 17.1148 103.938 17.9285 105.574 19.4143V11.1852ZM40.8164 31.5152C44.115 31.5152 46.7986 28.8853 46.7986 25.6526C46.7986 22.42 44.115 19.79 40.8164 19.79C37.5177 19.79 34.8341 22.42 34.8341 25.6526C34.8341 28.8853 37.5177 31.5152 40.8164 31.5152ZM34.8341 19.3123C36.4697 17.8265 38.5793 17.0126 40.8164 17.0126C45.6776 17.0126 49.6327 20.8885 49.6327 25.6526C49.6327 30.4167 45.6776 34.2926 40.8164 34.2926C38.5793 34.2926 36.4697 33.4789 34.8341 31.9929V40.2222H32V16.9926H34.8341V19.3123ZM55.0402 24.3036C55.678 21.6782 58.0547 19.793 60.7656 19.793C63.4412 19.793 65.6824 21.6379 66.2797 24.3036H55.0402ZM60.7656 16.9926C55.9772 16.9926 52.0817 20.9006 52.0817 25.7037C52.0817 30.507 55.9772 34.4148 60.7656 34.4148C63.4471 34.4148 65.9081 33.4078 67.5188 31.6519L68.3556 30.7392L68.4634 30.6214L68.3461 30.5128L66.5268 28.8342L66.4095 28.7257L66.301 28.8435L65.4643 29.7563C64.397 30.9198 62.6406 31.6146 60.7656 31.6146C58.0547 31.6146 55.6782 29.7294 55.0402 27.1038H69.2243V25.7037C69.2243 20.819 65.5087 16.9926 60.7656 16.9926ZM125.166 25.7038C125.166 28.963 122.482 31.6145 119.183 31.6145C115.885 31.6145 113.201 28.963 113.201 25.7038C113.201 22.4444 115.885 19.7929 119.183 19.7929C122.482 19.7929 125.166 22.4444 125.166 25.7038ZM119.183 16.9926C114.322 16.9926 110.367 20.9004 110.367 25.7038C110.367 30.507 114.322 34.4148 119.183 34.4148C124.045 34.4148 128 30.507 128 25.7038C128 20.9004 124.045 16.9926 119.183 16.9926ZM79.7547 16.9926C77.7855 16.9926 75.9093 17.7425 74.4326 19.1122V16.9926H71.6735V34.4148H74.4326V25.524C74.4326 22.3519 76.8201 19.7711 79.7547 19.7711C82.6898 19.7711 85.0779 22.3519 85.0779 25.524V34.4148H87.8364V25.524C87.8364 20.8198 84.211 16.9926 79.7547 16.9926Z" fill="#1A2022"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 27.7777H13.3333V40.8148L26.6667 27.7777V14.7407H13.3333L0 27.7777Z" fill="#FF4876"/>
+<path d="M99.5917 31.6175C102.891 31.6175 105.574 28.9876 105.574 25.755C105.574 22.5222 102.891 19.8923 99.5917 19.8923C96.2933 19.8923 93.6095 22.5222 93.6095 25.755C93.6095 28.9876 96.2933 31.6175 99.5917 31.6175ZM105.574 11.1852H105.736H108.408V34.4148H105.574V32.0954C103.938 33.5811 101.829 34.395 99.5917 34.395C94.7307 34.395 90.7757 30.519 90.7757 25.755C90.7757 20.9906 94.7307 17.1148 99.5917 17.1148C101.829 17.1148 103.938 17.9285 105.574 19.4143V11.1852ZM40.8164 31.5152C44.115 31.5152 46.7986 28.8853 46.7986 25.6526C46.7986 22.42 44.115 19.79 40.8164 19.79C37.5177 19.79 34.8341 22.42 34.8341 25.6526C34.8341 28.8853 37.5177 31.5152 40.8164 31.5152ZM34.8341 19.3123C36.4697 17.8265 38.5793 17.0126 40.8164 17.0126C45.6776 17.0126 49.6327 20.8885 49.6327 25.6526C49.6327 30.4167 45.6776 34.2926 40.8164 34.2926C38.5793 34.2926 36.4697 33.4789 34.8341 31.9929V40.2222H32V16.9926H34.8341V19.3123ZM55.0402 24.3036C55.678 21.6782 58.0547 19.793 60.7656 19.793C63.4412 19.793 65.6824 21.6379 66.2797 24.3036H55.0402ZM60.7656 16.9926C55.9772 16.9926 52.0817 20.9006 52.0817 25.7037C52.0817 30.507 55.9772 34.4148 60.7656 34.4148C63.4471 34.4148 65.9081 33.4078 67.5188 31.6519L68.3556 30.7392L68.4634 30.6214L68.3461 30.5128L66.5268 28.8342L66.4095 28.7257L66.301 28.8435L65.4643 29.7563C64.397 30.9198 62.6406 31.6146 60.7656 31.6146C58.0547 31.6146 55.6782 29.7294 55.0402 27.1038H69.2243V25.7037C69.2243 20.819 65.5087 16.9926 60.7656 16.9926ZM125.166 25.7038C125.166 28.963 122.482 31.6145 119.183 31.6145C115.885 31.6145 113.201 28.963 113.201 25.7038C113.201 22.4444 115.885 19.7929 119.183 19.7929C122.482 19.7929 125.166 22.4444 125.166 25.7038ZM119.183 16.9926C114.322 16.9926 110.367 20.9004 110.367 25.7038C110.367 30.507 114.322 34.4148 119.183 34.4148C124.045 34.4148 128 30.507 128 25.7038C128 20.9004 124.045 16.9926 119.183 16.9926ZM79.7547 16.9926C77.7855 16.9926 75.9093 17.7425 74.4326 19.1122V16.9926H71.6735V34.4148H74.4326V25.524C74.4326 22.3519 76.8201 19.7711 79.7547 19.7711C82.6898 19.7711 85.0779 22.3519 85.0779 25.524V34.4148H87.8364V25.524C87.8364 20.8198 84.211 16.9926 79.7547 16.9926Z" fill="#1A2022"/>
+<path d="M0 27.7777H13.3333V40.8148L26.6667 27.7777V14.7407H13.3333L0 27.7777Z" fill="#FF4876"/>
 </svg>
             </div>
         </div>
@@ -121,40 +121,11 @@ const Home = () => {
         </div>
         </div>
         <ReviewSlider />
-        {/* about me  */}
-        <div  id='aboutSection' className='lg:px-16 my-12 md:px-12 sm:px-4'>
-            <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4'>
-                <div className='flex flex-col justify-center'>
-                    <span className='font-bold text-4xl'>A bit about me</span>
-                    <span className='font-semibold text-slate-500 text-xsm mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer. Nunc odio in et, lectus sit lorem id integer.</span>
-                    <span className='font-semibold text-slate-500 text-xsm mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer. Nunc odio in et, lectus sit lorem id integer.</span>
-                    <span className='font-semibold text-slate-500 text-xsm mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer. Nunc odio in et, lectus sit lorem id integer.</span>
-                </div>
-                <div className='lg:flex md:hidden sm:hidden lg:flex-row md:flex-col sm:flex-col items-center'>
-                    {/* <div className='lg:w-[400px] md:w-80 sm:w-80 shadow-lg lg:h-80 md:h-[400px] sm:h-[400px] bg-gray-100'>
-                        <img src={mypic} className='w-full h-full object-cover' alt="" />
-                    </div> */}
-                    <div className='p-12 w-full '>
-                        <div className='flex flex-col border-b p-2'>
-                    <span className='font-bold text-3xl'>15</span>
-                    <span className='font-bold w-max text-xsm'>YEARS OF EXPERIENCE</span>
-                        </div>
-                        <div className='flex flex-col border-b p-2 my-12'>
-                    <span className='font-bold text-3xl'>2</span>
-                    <span className='font-bold text-xsm'>WEB APPS SHIPPED</span>
-                        </div>
-                        <div className='flex flex-col border-b p-2'>
-                    <span className='font-bold text-3xl'>18</span>
-                    <span className='font-bold text-xsm'>Experience</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Bannerslides />    
     </div>
         <div className='bg-black flex flex-col lg:p-32 md:p-20 sm:p-12'>
         <span className='font-bold  text-white text-5xl'>Have an idea?</span>
-        <span className='font-bold group w-max duration-100 hover:border-b-4 border-white mt-4 cursor-pointer text-white text-lg'>Let's talk<i class='bx rotate-45 hover:pb-4 group-hover:pb-4 duration-200 bx-arrow-back'></i></span>
+        <span className='font-bold group w-max duration-100 hover:border-b-4 border-white mt-4 cursor-pointer text-white text-lg'>Let's talk<i className='bx rotate-45 hover:pb-4 group-hover:pb-4 duration-200 bx-arrow-back'></i></span>
         </div>
     </>
   )
